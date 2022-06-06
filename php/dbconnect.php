@@ -5,12 +5,12 @@ session_start();
 $siteName = "Registro de Pagos";
 
 
-DEFINE("BASE_URL", "http://localhost/regpa/");
+DEFINE("BASE_URL", "http://localhost/pagos/");
 
 DEFINE('DB_USER', 'root');
 DEFINE('DB_PSWD', '');
 DEFINE('DB_HOST', 'localhost');
-DEFINE('DB_NAME', 'regpa');
+DEFINE('DB_NAME', 'pagos');
 
 date_default_timezone_set('America/Bogota');
 $conn =  new mysqli(DB_HOST, DB_USER, DB_PSWD, DB_NAME);
