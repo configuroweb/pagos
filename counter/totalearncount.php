@@ -3,7 +3,7 @@
 $servername = "localhost";
 $uname = "root";
 $pass = "";
-$database = "regpa";
+$database = "pagos";
 
 $conn = mysqli_connect($servername, $uname, $pass, $database);
 
